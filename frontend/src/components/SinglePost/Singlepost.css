@@ -1,0 +1,101 @@
+.singlePost {
+    flex: 75%;
+}
+
+.wrapper {
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.singleImg {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.singleTitle {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lora', serif;
+    font-size: 28px;
+}
+
+.postEdit {
+    float: right;
+    font-size: 20px;
+}
+
+.editIcon {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.editIcon:first-child {
+    color: teal;
+}
+
+.editIcon:last-child {
+    color: tomato;
+}
+
+.singlePostInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #b39656;
+    font-family: 'Varela Round';
+}
+
+.singlePostDesc {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.singlePostDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.singleTitleInput {
+    font-size: 30px;
+    color: #666;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+    border-bottom: 1px solid lightgray;
+}
+
+.singlePostDescInput {
+    font-size: 20px;
+    color: #666;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+    height: 50vh;
+}
+
+.singleTitleInput:focus, .singlePostDescInput:focus {
+    outline: none;
+}
+
+.writeUpdate {
+    background-color: teal;
+    border: none;
+    outline: none;
+    width: 100px;
+    padding: 10px;
+    color:white;
+    border-radius: 3px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin: 10px 0;
+}
+.writeUpdate:hover{
+    background-color: rgb(5, 43, 43);
+}
